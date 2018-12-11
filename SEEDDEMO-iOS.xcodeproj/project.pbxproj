@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC7ED3F21BF8A03002684CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7ED3E21BF8A03002684CA /* AppDelegate.m */; };
+		0EC7ED4221BF8A03002684CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7ED4121BF8A03002684CA /* ViewController.m */; };
+		0EC7ED4521BF8A03002684CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC7ED4321BF8A03002684CA /* Main.storyboard */; };
+		0EC7ED4721BF8A04002684CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC7ED4621BF8A04002684CA /* Assets.xcassets */; };
+		0EC7ED4A21BF8A04002684CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC7ED4821BF8A04002684CA /* LaunchScreen.storyboard */; };
+		0EC7ED4D21BF8A04002684CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7ED4C21BF8A04002684CA /* main.m */; };
+		0EC7ED5721BF8A04002684CA /* SEEDDEMO_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7ED5621BF8A04002684CA /* SEEDDEMO_iOSTests.m */; };
+		0EC7ED8221BF8A46002684CA /* seedcbc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7ED7821BF8A46002684CA /* seedcbc.c */; };
+		0EC7ED8421BF8A46002684CA /* NSData+SHA256.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7ED7C21BF8A46002684CA /* NSData+SHA256.m */; };
+		0EC7ED8521BF8A46002684CA /* SeedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7ED7D21BF8A46002684CA /* SeedUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EC7ED5321BF8A04002684CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EC7ED3221BF8A03002684CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EC7ED3921BF8A03002684CA;
+			remoteInfo = "SEEDDEMO-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EC7ED3A21BF8A03002684CA /* SEEDDEMO-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SEEDDEMO-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC7ED3D21BF8A03002684CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EC7ED3E21BF8A03002684CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EC7ED4021BF8A03002684CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EC7ED4121BF8A03002684CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EC7ED4421BF8A03002684CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EC7ED4621BF8A04002684CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EC7ED4921BF8A04002684CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EC7ED4B21BF8A04002684CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC7ED4C21BF8A04002684CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EC7ED5221BF8A04002684CA /* SEEDDEMO-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SEEDDEMO-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC7ED5621BF8A04002684CA /* SEEDDEMO_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEEDDEMO_iOSTests.m; sourceTree = "<group>"; };
+		0EC7ED5821BF8A04002684CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC7ED6221BF8A46002684CA /* NSData+SHA256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SHA256.h"; sourceTree = "<group>"; };
+		0EC7ED6321BF8A46002684CA /* SeedUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeedUtil.h; sourceTree = "<group>"; };
+		0EC7ED7821BF8A46002684CA /* seedcbc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = seedcbc.c; sourceTree = "<group>"; };
+		0EC7ED7B21BF8A46002684CA /* seedcbc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seedcbc.h; sourceTree = "<group>"; };
+		0EC7ED7C21BF8A46002684CA /* NSData+SHA256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SHA256.m"; sourceTree = "<group>"; };
+		0EC7ED7D21BF8A46002684CA /* SeedUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeedUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC7ED3721BF8A03002684CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC7ED4F21BF8A04002684CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC7ED3121BF8A03002684CA = {
+			isa = PBXGroup;
+			children = (
+				0EC7ED3C21BF8A03002684CA /* SEEDDEMO-iOS */,
+				0EC7ED5521BF8A04002684CA /* SEEDDEMO-iOSTests */,
+				0EC7ED3B21BF8A03002684CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EC7ED3B21BF8A03002684CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EC7ED3A21BF8A03002684CA /* SEEDDEMO-iOS.app */,
+				0EC7ED5221BF8A04002684CA /* SEEDDEMO-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EC7ED3C21BF8A03002684CA /* SEEDDEMO-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0EC7ED6121BF8A46002684CA /* SEED */,
+				0EC7ED3D21BF8A03002684CA /* AppDelegate.h */,
+				0EC7ED3E21BF8A03002684CA /* AppDelegate.m */,
+				0EC7ED4021BF8A03002684CA /* ViewController.h */,
+				0EC7ED4121BF8A03002684CA /* ViewController.m */,
+				0EC7ED4321BF8A03002684CA /* Main.storyboard */,
+				0EC7ED4621BF8A04002684CA /* Assets.xcassets */,
+				0EC7ED4821BF8A04002684CA /* LaunchScreen.storyboard */,
+				0EC7ED4B21BF8A04002684CA /* Info.plist */,
+				0EC7ED4C21BF8A04002684CA /* main.m */,
+			);
+			path = "SEEDDEMO-iOS";
+			sourceTree = "<group>";
+		};
+		0EC7ED5521BF8A04002684CA /* SEEDDEMO-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EC7ED5621BF8A04002684CA /* SEEDDEMO_iOSTests.m */,
+				0EC7ED5821BF8A04002684CA /* Info.plist */,
+			);
+			path = "SEEDDEMO-iOSTests";
+			sourceTree = "<group>";
+		};
+		0EC7ED6121BF8A46002684CA /* SEED */ = {
+			isa = PBXGroup;
+			children = (
+				0EC7ED7721BF8A46002684CA /* seediOS */,
+				0EC7ED6221BF8A46002684CA /* NSData+SHA256.h */,
+				0EC7ED7C21BF8A46002684CA /* NSData+SHA256.m */,
+				0EC7ED6321BF8A46002684CA /* SeedUtil.h */,
+				0EC7ED7D21BF8A46002684CA /* SeedUtil.m */,
+			);
+			path = SEED;
+			sourceTree = "<group>";
+		};
+		0EC7ED7721BF8A46002684CA /* seediOS */ = {
+			isa = PBXGroup;
+			children = (
+				0EC7ED7B21BF8A46002684CA /* seedcbc.h */,
+				0EC7ED7821BF8A46002684CA /* seedcbc.c */,
+			);
+			path = seediOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EC7ED3921BF8A03002684CA /* SEEDDEMO-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC7ED5B21BF8A04002684CA /* Build configuration list for PBXNativeTarget "SEEDDEMO-iOS" */;
+			buildPhases = (
+				0EC7ED3621BF8A03002684CA /* Sources */,
+				0EC7ED3721BF8A03002684CA /* Frameworks */,
+				0EC7ED3821BF8A03002684CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SEEDDEMO-iOS";
+			productName = "SEEDDEMO-iOS";
+			productReference = 0EC7ED3A21BF8A03002684CA /* SEEDDEMO-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EC7ED5121BF8A04002684CA /* SEEDDEMO-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC7ED5E21BF8A04002684CA /* Build configuration list for PBXNativeTarget "SEEDDEMO-iOSTests" */;
+			buildPhases = (
+				0EC7ED4E21BF8A04002684CA /* Sources */,
+				0EC7ED4F21BF8A04002684CA /* Frameworks */,
+				0EC7ED5021BF8A04002684CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EC7ED5421BF8A04002684CA /* PBXTargetDependency */,
+			);
+			name = "SEEDDEMO-iOSTests";
+			productName = "SEEDDEMO-iOSTests";
+			productReference = 0EC7ED5221BF8A04002684CA /* SEEDDEMO-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EC7ED3221BF8A03002684CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = tigi;
+				TargetAttributes = {
+					0EC7ED3921BF8A03002684CA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0EC7ED5121BF8A04002684CA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0EC7ED3921BF8A03002684CA;
+					};
+				};
+			};
+			buildConfigurationList = 0EC7ED3521BF8A03002684CA /* Build configuration list for PBXProject "SEEDDEMO-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EC7ED3121BF8A03002684CA;
+			productRefGroup = 0EC7ED3B21BF8A03002684CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EC7ED3921BF8A03002684CA /* SEEDDEMO-iOS */,
+				0EC7ED5121BF8A04002684CA /* SEEDDEMO-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EC7ED3821BF8A03002684CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC7ED4A21BF8A04002684CA /* LaunchScreen.storyboard in Resources */,
+				0EC7ED4721BF8A04002684CA /* Assets.xcassets in Resources */,
+				0EC7ED4521BF8A03002684CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC7ED5021BF8A04002684CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC7ED3621BF8A03002684CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC7ED4221BF8A03002684CA /* ViewController.m in Sources */,
+				0EC7ED8221BF8A46002684CA /* seedcbc.c in Sources */,
+				0EC7ED4D21BF8A04002684CA /* main.m in Sources */,
+				0EC7ED8421BF8A46002684CA /* NSData+SHA256.m in Sources */,
+				0EC7ED8521BF8A46002684CA /* SeedUtil.m in Sources */,
+				0EC7ED3F21BF8A03002684CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC7ED4E21BF8A04002684CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC7ED5721BF8A04002684CA /* SEEDDEMO_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EC7ED5421BF8A04002684CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EC7ED3921BF8A03002684CA /* SEEDDEMO-iOS */;
+			targetProxy = 0EC7ED5321BF8A04002684CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EC7ED4321BF8A03002684CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC7ED4421BF8A03002684CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EC7ED4821BF8A04002684CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC7ED4921BF8A04002684CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EC7ED5921BF8A04002684CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EC7ED5A21BF8A04002684CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EC7ED5C21BF8A04002684CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SEEDDEMO-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SEEDDEMO-iOS/SEED",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigi.SEEDDEMO-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EC7ED5D21BF8A04002684CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SEEDDEMO-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SEEDDEMO-iOS/SEED",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigi.SEEDDEMO-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EC7ED5F21BF8A04002684CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEEDDEMO-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigi.SEEDDEMO-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEEDDEMO-iOS.app/SEEDDEMO-iOS";
+			};
+			name = Debug;
+		};
+		0EC7ED6021BF8A04002684CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEEDDEMO-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigi.SEEDDEMO-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEEDDEMO-iOS.app/SEEDDEMO-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EC7ED3521BF8A03002684CA /* Build configuration list for PBXProject "SEEDDEMO-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC7ED5921BF8A04002684CA /* Debug */,
+				0EC7ED5A21BF8A04002684CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC7ED5B21BF8A04002684CA /* Build configuration list for PBXNativeTarget "SEEDDEMO-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC7ED5C21BF8A04002684CA /* Debug */,
+				0EC7ED5D21BF8A04002684CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC7ED5E21BF8A04002684CA /* Build configuration list for PBXNativeTarget "SEEDDEMO-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC7ED5F21BF8A04002684CA /* Debug */,
+				0EC7ED6021BF8A04002684CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EC7ED3221BF8A03002684CA /* Project object */;
+}
